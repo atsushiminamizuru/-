@@ -70,22 +70,22 @@ header {
   width: 100%;
 }
 
-* {
-  float: none;
-  position: static;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 main {
   width: 100%;
   display: block;
+  margin: 50px 5%;
 }
 
 .step-box {
+  width: 90%;
+  margin: 0;
+}
+
+.step-box:nth-child(2) {
+  margin: 20px 0;
+}
+
+fotter {
   width: 100%;
 }
 }
